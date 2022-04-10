@@ -39,3 +39,9 @@
    该文件是本次project的**测试集测试**文件，导入模型，用经过参数查找后的模型进行测试，输出分类精度。**需要预先下载minist文件夹、tcktorch文件夹以及model.pkl**。
 
    **直接执行该文件即可进行在测试集上进行测试。**
+
+6. model.pkl
+
+   该文件是经过参数搜索后得到的最佳模型，具体参数如下：
+
+   Best model: learning_rate:0.7066002283160423	hidden_units:362	weight_decay:2.039352353360306e-05	valid_acc:98.1167
