@@ -2,7 +2,7 @@
 
 ## 文件说明：
 
-仿照pytorch，基于numpt，自定义了tcktorch模块，能够实现基本的神经网络训练功能。
+仿照pytorch，基于numpy，自定义了tcktorch模块，能够实现基本的神经网络训练功能。
 
 
 
