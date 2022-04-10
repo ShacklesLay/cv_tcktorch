@@ -15,8 +15,7 @@
    3. torchvision文件夹：包含Transform.py文件
       1. Transform.py文件：实现了数据增强的基本操作中
    4. optim.py文件：实现了实验所需要的优化器
-2. train.py文件：本次实验的训练文件，运行该文件即可进行训练
-3. finetuning.py文件：执行任务八的文件
+
 
 
 
