@@ -1,0 +1,1 @@
+Best model: lr:0.7066002283160423	hidden_units:362	weight_decay:2.039352353360306e-05	valid_acc:98.1167
