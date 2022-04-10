@@ -6,15 +6,15 @@
 
 
 
-1. tcktorch文件夹：包含本次实验所需要的所有神经网络相关模块
+1. tcktorch文件夹：自定义神经网络训练模块
    1. nn文件夹：包含fuctional.py 和 Sequential.py文件
-      1. functional.py文件：实现了本次实验所需要的函数，包括线性层、激活函数、损失函数等
+      1. functional.py文件：实现相关层的函数，包括线性层、激活函数、损失函数等
       2. Sequential.py文件：仿照pytorch定义了 Sequential 容器，用于实现隐藏层自动的前向和后向传播
    2. utils文件夹：包含 data.py文件
       1. data.py文件：仿照pytorch定义了 Dataset 类和 Dataloader 类
    3. torchvision文件夹：包含Transform.py文件
-      1. Transform.py文件：实现了数据增强的基本操作中
-   4. optim.py文件：实现了实验所需要的优化器
+      1. Transform.py文件：实现了数据增强的基本操作
+   4. optim.py文件：实现了带动量的SGD
 
 
 
