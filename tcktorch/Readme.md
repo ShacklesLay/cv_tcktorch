@@ -14,7 +14,7 @@
       1. data.py文件：仿照pytorch定义了 Dataset 类和 Dataloader 类
    3. torchvision文件夹：包含Transform.py文件
       1. Transform.py文件：实现了数据增强的基本操作
-   4. optim.py文件：实现了带动量的SGD
+   4. optim.py文件：实现SGD，包含动量，学习率下降，weight decay正则化
 
 
 
