@@ -4,6 +4,7 @@ from tcktorch.utils.data import Dataset, Dataloader
 from tcktorch import nn
 from tqdm import tqdm
 from tcktorch.torchvision.Transform import *
+import re
 
 def load_data(data_folder):
   files = [
@@ -75,10 +76,10 @@ def test(model,batch_size=64, seed=37):
 
 def evalexe(hidden_units: object = 128, learning_rate: object = 0.1, weight_decay: object = 1e-5) -> object:
 
-    # file_object = open('result2.txt')
-    # a = file_object.read()
+    file_object = open('result2.txt')
+    a = file_object.read()
     # learning_rate = float(re.search("(?<=lr:)[0-9\.e-]*", a).group())
-    # hidden_units = int(re.search("(?<=its:)[0-9\.]*", a).group())
+    hidden_units = int(re.search("(?<=its:)[0-9\.]*", a).group())
     # weight_decay = float(re.search("(?<=cay:)[0-9\.e-]*", a).group())
 
     model = nn.Sequential([nn.functional.Flatten(),
